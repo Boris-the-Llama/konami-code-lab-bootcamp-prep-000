@@ -6,10 +6,12 @@ function init() {
   const key = (this.detail || this.which);
   if (key === code[index]) {
     index++;
+ 
     if (index === code.length) {
-    alert("Congratulations!!!");
-    index = 0; // to reset code
-  }
+      alert("Hurray!");
+ 
+      index = 0;
+    }
   } else { 
     index = 0;
   }
