@@ -2,8 +2,8 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
 var index = 0;
 
-function init() {
-  var key = (e.detail || e.which);
+function init(e) {
+  var key = (this.detail || this.which);
   if (key === code[index]) {
     index++;
  
