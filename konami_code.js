@@ -4,7 +4,7 @@ var codepos = 0;
 
 function init() {
   document.body.addEventListener('keydown', function(e) {
-  const key = parseInt(this.detail || this.which);
+  const key = parseInt(e.detail);
  
   if (key === code[codepos]) {
     codepos++;
