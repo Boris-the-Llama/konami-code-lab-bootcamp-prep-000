@@ -3,7 +3,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 var codepos = 0;
 
 function init() {
-  var key = (e.code));
+  var key = (e.Keycode));
   
   if (key === code[index]) {
     index++;
