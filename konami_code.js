@@ -5,7 +5,7 @@ var codepos = 0;
 function init() {
   const key = parseInt(this.detail || this.which);
  
-  if (key === code[index]) {
+  if (key === code[codepos]) {
     codepos++;
  
     if (codepos === code.length) {
