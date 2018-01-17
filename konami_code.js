@@ -10,10 +10,7 @@ function init() {
     alert("Congratulations!!!");
     index = 0; // to reset code
   }
-  }
-  
-  
-  else { 
+  } else { 
     index = 0;
   }
   
