@@ -17,7 +17,7 @@ function init() {
   } else {
     codepos = 0;
   }
-}
+});
 }
 
 
