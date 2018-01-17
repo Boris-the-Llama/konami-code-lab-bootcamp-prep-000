@@ -4,7 +4,7 @@ var index = 0;
 
 function init() {
   const key = (this.detail || this.which);
-  if (key === code[i]) {
+  if (key === code[index]) {
     index++;
   }
   if (index === code.length) {
