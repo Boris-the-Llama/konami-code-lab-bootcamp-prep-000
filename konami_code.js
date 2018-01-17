@@ -4,7 +4,7 @@ var index = 0;
 
 function init(e) {
   const key = parseInt(e.detail || e.which);
-  if (key === code[index]) {
+  if (key === code[i]) {
     index++;
   }
   if (index === code.length) {
